@@ -80,6 +80,7 @@ print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 ```
 ![Confusion Matrix](confusion-matrix.png)
+
 *Evaluated predictions with accuracy, confusion matrix, and classification report.*
 
 ---
@@ -103,6 +104,7 @@ plt.grid(True)
 plt.show()
 ```
 ![Accuracy vs k](accuracy_vs_k.png)
+
 *Tested multiple k values to find the optimal number of neighbors.*
 
 ---
@@ -144,6 +146,7 @@ plt.title('KNN Decision Boundaries (k=3, first two features)')
 plt.show()
 ```
 ![Decision Boundary](knn-decision-boundaries.png)
+
 *Visualizes how KNN separates classes based on Sepal Length and Sepal Width.*
 
 ---
